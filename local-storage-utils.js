@@ -50,3 +50,10 @@ export function capturePokemon(pokemon) {
     setPokedex(pokedex);
     return pokedex;
 }
+
+// export function attackLevel(pokemon) {
+//     const pokedex = getPokedex();
+//     const matchingPokedexItem = findById(pokedex, pokemon.pokemon);
+
+//     matchingPokedexItem.attackLevel;
+// }
