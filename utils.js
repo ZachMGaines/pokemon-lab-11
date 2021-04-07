@@ -8,3 +8,4 @@ export function findById(array, id) {
 export function findByPokemonName(name) {
     return pokeData.find(poke => name === poke.pokemon);
 }
+

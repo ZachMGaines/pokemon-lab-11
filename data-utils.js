@@ -2,6 +2,7 @@ import { pokeData } from './poke-data.js';
 import { encounterPokemon } from './local-storage-utils.js';
 
 
+
 export function generateThreePokemon() {
 
     function getRandomIndex() {
@@ -32,4 +33,6 @@ export function generateThreePokemon() {
 
     return [poke1, poke2, poke3];
 }
+
+
 

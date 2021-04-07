@@ -2,6 +2,7 @@ import { generateThreePokemon } from './data-utils.js';
 import { capturePokemon } from './local-storage-utils.js';
 import { findByPokemonName } from './utils.js';
 
+
 const button = document.querySelector('button');
 
 let totalCaptures = 0;
